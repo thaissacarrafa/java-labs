@@ -1,3 +1,7 @@
+package ContaCorrente;
+
+import ContaCorrente.ContaCorrente;
+
 public class ExercicioContaCorrente {
     public static void main(String[] args) {
 

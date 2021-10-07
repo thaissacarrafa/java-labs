@@ -1,3 +1,5 @@
+package Lampada;
+
 public class ExercicioLampada {
 
     public static void main(String[] args) {

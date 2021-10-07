@@ -1,3 +1,5 @@
+package Turma;
+
 import java.util.Scanner;
 
 public class Turma { // atributos

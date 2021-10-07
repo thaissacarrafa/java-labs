@@ -1,3 +1,5 @@
+package Passageiro;
+
 public class Passageiro {
     private String nome;
     private String paisDeOrigem;

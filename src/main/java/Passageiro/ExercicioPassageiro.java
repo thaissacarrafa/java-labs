@@ -1,3 +1,5 @@
+package Passageiro;
+
 public class ExercicioPassageiro {
     public static void main(String[] args) {
 

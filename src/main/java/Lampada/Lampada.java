@@ -1,3 +1,5 @@
+package Lampada;
+
 public class Lampada {
 
     private String modelo;

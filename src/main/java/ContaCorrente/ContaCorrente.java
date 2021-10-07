@@ -1,3 +1,5 @@
+package ContaCorrente;
+
 public class ContaCorrente {
 
     private String nomeCliente;
