@@ -13,7 +13,7 @@ Neste arquivo concentrarei os exercícios que venho fazendo ao longo do tempo.
 - [x] Lampada
 - [x] Passageiro
 - [ ] Conta Corrente  
-- [ ] Turma
+- [ ] Turmagit 
 - [x] Usuario
 
 

@@ -24,9 +24,10 @@ public class ExercicioContaCorrente {
         contaCorrente.sacarDinheiro(200);
         contaCorrente.valorDoChequeEspecial();
         contaCorrente.consultarSaldo();
-        contaCorrente.depositarDinheiro(50);
+        contaCorrente.depositarDinheiro(10);
         contaCorrente.consultarSaldo();
         contaCorrente.valorDoChequeEspecial();
+        contaCorrente.consultaLimite();
 
         System.out.println("____________________________________________________________");
         System.out.println(" Volte sempre a fazer transações conosco. Abraços Banco " + contaCorrente.getBanco());

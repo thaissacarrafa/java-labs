@@ -112,14 +112,19 @@ public class ContaCorrente {
             saldo += deposito;
             System.out.println(" Depósito de " + deposito + " realizado com sucesso");
         } else if(chequeEspecialUsado > 0) {
-            double valorDepositoCheque = deposito - chequeEspecialUsado;
-            double restanteDeposito = (deposito - valorDepositoCheque);
+            if(deposito>chequeEspecialUsado){
+                double valorDepositoChequeMaior = deposito - chequeEspecialUsado;
+                double restanteDeposito = (deposito - valorDepositoChequeMaior);
 
-            saldo += valorDepositoCheque;
-            chequeEspecialUsado = 0;
+                saldo += valorDepositoChequeMaior;
+                chequeEspecialUsado = 0;
 
+            } else if( deposito<chequeEspecialUsado){
+                double restanteDepositoMenor = chequeEspecialUsado - deposito;
 
-            System.out.println(" Você depositou R$" + deposito + " sendo que o valor de R$ " + restanteDeposito + " foi utilizado para pagar o seu Cheque especial. Seu saldo atual é R$ " + saldo);
+                chequeEspecialUsado -= deposito;
+            }
+
 
         }
     }

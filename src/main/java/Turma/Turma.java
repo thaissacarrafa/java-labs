@@ -121,6 +121,7 @@ public class Turma { // atributos
             System.out.println("Aluno " + contAluno + ", digite sua 1ª nota");
             nota1 = ent.nextInt();
 
+
             // recebe a 2º nota
             System.out.println("Aluno " + contAluno + ", digite sua 2ª nota");
             nota2 = ent.nextInt();
@@ -143,6 +144,7 @@ public class Turma { // atributos
 
         }
     }
+
 }
 
 
