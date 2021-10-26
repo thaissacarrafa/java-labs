@@ -12,9 +12,10 @@ Neste arquivo concentrarei os exercícios que venho fazendo ao longo do tempo.
 
 - [x] Lampada
 - [x] Passageiro
-- [ ] Conta Corrente  
-- [ ] Turmagit 
+- [x] Conta Corrente  
+- [x] Turma 
 - [x] Usuario
+- [x] Treinando estruturas de repetição
 
 
 ## 💻 Informações relevantes
